@@ -64,8 +64,8 @@ class BotswanaService {
                 villaggio = it
                 listaVillaggi.add(LibWiki.setQuadre(getNomeBotswanaConPipe(villaggio.nome)))
             } // fine del ciclo each
-            listaVillaggi = listaTreColonne(listaVillaggi)
             testoElenco = this.getTestoDaLista(listaVillaggi)
+            testoElenco = this.newListaTreColonne(testoElenco)
             if (usaCassetto) {
                 testoElenco = this.getCassetto('Lista dei villaggi', testoElenco)
             }// fine del blocco if
@@ -85,8 +85,8 @@ class BotswanaService {
                     }// fine del blocco if
                 }// fine del blocco if-else
             } // fine del ciclo each
-            listaLocalita = this.listaTreColonne(listaLocalita)
             testoElenco = this.getTestoDaLista(listaLocalita)
+            testoElenco = this.newListaTreColonne(testoElenco)
             if (usaCassetto) {
                 testoElenco = this.getCassetto('Lista delle località', testoElenco)
             }// fine del blocco if
@@ -98,6 +98,27 @@ class BotswanaService {
             pagina.scrive(testo)
             def stop
         } // fine del ciclo each
+    }// fine della closure
+
+    /**
+     * Suddivide la lista in tre colonne.
+     *
+     * @param listaIn in ingresso
+     * @return listaOut in uscita
+     */
+    public static String newListaTreColonne(String testoIn) {
+        String testoOut = testoIn
+
+        if (testoIn) {
+            testoOut = '{{Div col|cols=3}}'
+            testoOut += aCapo
+            testoOut += testoIn
+            testoOut += aCapo
+            testoOut += '{{Div col end}}'
+        }// fine del blocco if
+
+        // valore di ritorno
+        return testoOut
     }// fine della closure
 
     /**
