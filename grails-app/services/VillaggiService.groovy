@@ -19,6 +19,37 @@ class VillaggiService {
     private static String aCapo = BotswanaService.aCapo
     private static String par = BotswanaService.par
 
+    // Controlla le coordinate di tutti i villaggi
+    public void coordinate() {
+        def villaggi
+        Villaggi villaggio
+        String titolo
+        Pagina pagina
+        String testoOld
+        String testoNew
+        String nick = Preferenze.getStr('nick')
+        String password = Preferenze.getStr('password')
+        Login login = new Login('it', nick, password)
+        assert login.isCollegato()
+        Pagina.login = login
+
+        if (Villaggi.count() > 0) {
+            villaggi = Villaggi.findAll([sort: "nome", order: "asc"])
+            villaggi?.each {
+                villaggio = it
+                titolo = villaggio.nome
+                pagina = new Pagina(titolo)
+                testoOld = pagina.contenuto
+                testoNew = testoOld
+                testoNew = testoNew.replace('Latitudine decimale = 0', 'Latitudine decimale =')
+                testoNew = testoNew.replace('Longitudine decimale = 0', 'Longitudine decimale =')
+                if (!testoNew.equals(testoOld)) {
+                    pagina.scrive(testoNew, 'fix coord zero')
+                }// fine del blocco if
+            }// fine del blocco if
+        } // fine del ciclo each
+    }// fine del metodo
+
     // importazione iniziale dei dati
     public String importa() {
         String messaggio = ''

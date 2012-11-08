@@ -109,6 +109,7 @@
         <g:link class="edit" action="testLocalita">Controlla le pagine delle località esistenti (test)</g:link>
         <g:link class="edit" action="allLocalita">Crea tutte le località (definitivo)</g:link>
         <g:link class="edit" action="liste">Lista dei villaggi/località per distretto</g:link>
+        <g:link class="edit" action="coordinate">Controllo coordinate</g:link>
     </div>
 
 </div>

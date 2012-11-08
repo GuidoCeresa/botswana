@@ -70,4 +70,10 @@ class BotswanaController {
         botswanaService.liste()
         redirect(action: "index", params: params)
     }// fine della closure
+
+    def coordinate() {
+        localitaService.coordinate()
+        villaggiService.coordinate()
+        redirect(action: "index", params: params)
+    }// fine della closure
 }

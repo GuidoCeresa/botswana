@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb0d92e-f235-4a23-a8f5-c68f8882774a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaController.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService$_getTestoDaLista_closure2.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService$_getTestoDaLista_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService$_leggeFile_closure3.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService$_leggeFile_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService$_leggeRighe_closure4.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService$_leggeRighe_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService$_liste_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService$_liste_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService$_liste_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService$_liste_closure1_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService$_liste_closure1_closure6.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService$_liste_closure1_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BotswanaService.class" afterPath="$PROJECT_DIR$/target/classes/BotswanaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_creaLocalitaSuWiki_closure6.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_creaLocalitaSuWiki_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_creaLocalitaSuWiki_closure7.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_creaLocalitaSuWiki_closure7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_importaTavola_closure1.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_importaTavola_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure2.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure3.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure4.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure5.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService$_testLocalita_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LocalitaService.class" afterPath="$PROJECT_DIR$/target/classes/LocalitaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VillaggiService$_creaVillaggiSuWiki_closure5.class" afterPath="$PROJECT_DIR$/target/classes/VillaggiService$_creaVillaggiSuWiki_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VillaggiService$_testVillaggi_closure3.class" afterPath="$PROJECT_DIR$/target/classes/VillaggiService$_testVillaggi_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VillaggiService.class" afterPath="$PROJECT_DIR$/target/classes/VillaggiService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/botswana.iml" afterPath="$PROJECT_DIR$/botswana.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/BotswanaController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/BotswanaController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/BotswanaService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/BotswanaService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/LocalitaService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/LocalitaService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/VillaggiService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/VillaggiService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/botswana/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/botswana/index.gsp" />
     </list>
     <ignored path="botswana.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,39 +85,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BotswanaService.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="VillaggiService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/VillaggiService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalitaService.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/LocalitaService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="59" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.06746627">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BotswanaService.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/BotswanaService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="3959" selection-end="3959" vertical-scroll-proportion="0.1634183">
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BotswanaController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/BotswanaController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="27" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-23.043478">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="68.291664">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/botswana/index.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="56" selection-start="3294" selection-end="3294" vertical-scroll-proportion="-11.595745">
+            <state line="10" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,17 +136,17 @@
         <option value="$PROJECT_DIR$/grails-app/services/SottodistrettiService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/botswana/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/services/BotswanaService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/BotswanaController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/VillaggiService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/LocalitaService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/botswana/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/BotswanaController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/BotswanaService.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="45" />
+    <option name="x" value="76" />
+    <option name="y" value="75" />
     <option name="width" value="1317" />
     <option name="height" value="828" />
   </component>
@@ -168,26 +178,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="botswana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,10 +209,6 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -238,25 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="botswana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="botswana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="botswana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,6 +248,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="botswana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,12 +284,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -340,6 +328,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -366,24 +372,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -514,14 +502,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="45" width="1317" height="828" extended-state="0" />
+    <frame x="76" y="75" width="1317" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53323907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47807637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4112022" sideWeight="0.49761146" order="7" side_tool="true" content_ui="tabs" />
@@ -533,10 +520,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28503186" sideWeight="0.32714286" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26514554" sideWeight="0.5219236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26042485" sideWeight="0.6166902" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38330975" sideWeight="0.4968153" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53323907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -636,22 +624,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/services/DistrettiService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/botswana/LibFile.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="303" selection-end="1878" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/botswana/Distretti.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="447" selection-end="478" vertical-scroll-proportion="-0.33333334" />
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="447" selection-end="478" vertical-scroll-proportion="-0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/LocalitaController.groovy">
@@ -674,25 +652,20 @@
         <state line="4" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/VillaggiService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="37" selection-start="5473" selection-end="5520" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/botswana/Villaggi.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.6666667" />
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.6666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/botswana/Localita.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.6666667" />
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.6666667" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.grails/2.1.1/projects/botswana/plugins/weblib-0.12/src/groovy/LibWiki.groovy">
@@ -700,38 +673,45 @@
         <state line="260" column="18" selection-start="8668" selection-end="8668" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/LocalitaService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="107" selection-start="5183" selection-end="5213" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="68.291664">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="68.291664" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/botswana/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="56" selection-start="3294" selection-end="3294" vertical-scroll-proportion="-11.595745">
-          <folding />
-        </state>
+        <state line="111" column="47" selection-start="3312" selection-end="3322" vertical-scroll-proportion="0.7898894" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/DistrettiService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="29" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.022058824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/BotswanaController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="27" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-23.043478">
-          <folding />
-        </state>
+        <state line="75" column="0" selection-start="2334" selection-end="2334" vertical-scroll-proportion="-23.043478" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.1.1/projects/botswana/plugins/webwiki-0.12/src/groovy/Pagina.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="364" column="0" selection-start="12408" selection-end="12408" vertical-scroll-proportion="0.331307" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/VillaggiService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/BotswanaService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3959" selection-end="3959" vertical-scroll-proportion="0.1634183">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state line="10" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/LocalitaService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="59" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.06746627">
+          <folding />
         </state>
       </provider>
     </entry>

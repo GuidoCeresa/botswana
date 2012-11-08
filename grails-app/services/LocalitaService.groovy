@@ -19,6 +19,42 @@ class LocalitaService {
     private static String aCapo = BotswanaService.aCapo
     private static String par = BotswanaService.par
 
+    // Controlla le coordinate di tutte le località
+    public String coordinate() {
+        int min = BotswanaService.numeroMinimoAbitanti
+        def allLocalita
+        Localita localita
+        String titolo
+        Pagina pagina
+        String testoOld
+        String testoNew
+        String nick = Preferenze.getStr('nick')
+        String password = Preferenze.getStr('password')
+        Login login = new Login('it', nick, password)
+        assert login.isCollegato()
+        Pagina.login = login
+
+        if (Localita.count() > 0) {
+            allLocalita = Localita.findAllByPopolazioneGreaterThan(min, [sort: "nome", order: "asc"])
+            allLocalita?.each {
+                localita = it
+                titolo = localita.nome
+                pagina = new Pagina(titolo)
+                if (pagina.isValida()) {
+                    testoOld = pagina.contenuto
+                    testoNew = testoOld
+                    testoNew = testoNew.replace('Latitudine decimale = 0', 'Latitudine decimale =')
+                    testoNew = testoNew.replace('Longitudine decimale = 0', 'Longitudine decimale =')
+                    if (!testoNew.equals(testoOld)) {
+                        pagina.scrive(testoNew, 'fix coord zero')
+                    }// fine del blocco if
+                }// fine del blocco if
+
+                def stop
+            }// fine del blocco if
+        } // fine del ciclo each
+    }// fine del metodo
+
     // importazione iniziale dei dati
     public String importa() {
         String messaggio = ''
@@ -296,7 +332,7 @@ class LocalitaService {
         }// fine del blocco if
     }// fine del metodo
 
-    // Creo una loc alita di prova nella mia pagina utente
+    // Creo una localita di prova nella mia pagina utente
     private singolaLocalitaProva(Localita localita) {
         String titolo = 'Utente:Gac/Botswana3'
         String testo = this.creaTesto(localita)

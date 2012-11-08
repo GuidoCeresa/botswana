@@ -24,6 +24,7 @@ class BotswanaService {
     public static String aCapo = '\n'
     public static String par = '('
 
+
     // Crea una pagina di controllo con la lista di tutti i villaggi/località, suddivisi per sottodistretto
     public String liste() {
         String titoloBase = 'Utente:Gac/Botswana'
